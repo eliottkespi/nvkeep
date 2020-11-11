@@ -151,7 +151,7 @@ The server side is up and running, so now it's time to connect our NFS client. R
 yum install nfs-utils
 mkdir /mnt/nfs
 
-mount.nfs -o vers=3 192.168.0.1:/mnt/nfsexport /mnt/nfs
+mount.nfs -o vers=4.1 192.168.0.1:/mnt/nfsexport /mnt/nfs
 ```
 
 ## Simulating Server Failure
